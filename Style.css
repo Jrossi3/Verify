@@ -1,0 +1,181 @@
+body {
+    margin: 0px;
+}
+
+.col1, .col2, .col3, .col4, .col5 {
+    font-family:"Century Gothic";
+}
+
+p {
+    font-family: "Century Gothic";
+}
+
+a {
+    font-family: "Century Gothic";
+}
+
+.jumbotron {
+    background: lightgrey;
+    padding: 10px 20px 0px 20px;
+}
+
+h2 {
+    color: white;
+    font-family: "Baskerville";
+    font-size: 24px;
+}
+
+h3 {
+    margin: 0px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Baskerville";
+}
+
+.container.lightgray {
+    background-color: lightgrey;
+    padding: 25px;
+}
+
+.container.lightseagreen {
+    background-color: lightseagreen;
+    padding: 25px;
+}
+
+#about1 {
+    color: black;
+}
+
+#about2 {
+    color: white;
+}
+  
+
+.col1 {
+    float: left;
+    width: 100%;
+}
+
+.col2 {
+    float: left;
+    width: 45%;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.col3 {
+    float: left;
+    width: 33.33%;
+}
+
+  /* Clear floats */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 710px) {
+    .col1 {
+      width: 100%;
+    }
+}
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 710px) {
+    .col2 {
+      width: 90%;
+    }
+}
+
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 710px) {
+    .col3 {
+      width: 100%;
+    }
+}
+
+@media screen and (min-width: 999px) {
+    .navbar {
+        overflow: hidden;
+        background-color: #333;
+        position: fixed;
+        width: 100%;
+    }
+    
+    .navbar a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        border-right: 1px solid #bbb;
+    }
+}
+
+@media screen and (max-width: 700px)
+{
+    .navbar {
+        overflow: hidden;
+        background-color: #333;
+        position: fixed;
+        width: 100%;
+    }
+    
+    .navbar a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        border-right: 1px solid #bbb;
+
+    }
+}
+
+@media (max-width: 998px) and (min-width: 600px)
+{
+    .navbar {
+        overflow: hidden;
+        background-color: #333;
+        position: fixed;
+        width: 100%;
+    }
+    
+    .navbar a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        border-right: 1px solid #bbb;
+    }
+}
+
+footer {
+    background-color: #424242;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    color: lightseagreen;
+}
+
+.location {
+    text-align: center;
+    font-size: 16px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+i {
+    border: solid black;
+    border-width: 0 0 0 0;
+    display: inline-block;
+}
