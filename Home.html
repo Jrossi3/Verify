@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="Style.css">
-    <title>Tutoring</title>
+    <title>Verify</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         body 
@@ -110,7 +110,7 @@
     </head>
     <body>
         <div class="navbar" id = "myNavbar">
-            <a style = "background: lightseagreen" href="Home.html">iTutor</a>
+            <a style = "background: lightseagreen" href="Home.html">Verify</a>
             <a href="Extra.html">Extra</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="fa fa-bars"></i>
@@ -118,39 +118,42 @@
         </div>
         
             <br><br><br><br>
-            <h3 style="font-size: 40px;">Chess</h3>
+            <h3 style="font-size: 40px;">Verify</h3>
         <br>
         <img src="HarryPotterChessScene.jpg" 
         alt="Verfiy" border="0" /></a>
         <br>
         <div class="container lightseagreen">
-                <h3 id = "about2" >Verification Guidelines</h3>
+            <h3 id = "about2" >Verification Guidelines</h3>
                 <div class="row"> 
                     
                 </div>
-            </div>
-        <div class="container lightgray">
-                <h3></h3>
-                <div class="row">
-                    <div class="col2">
-                        <h2 id = "about1"></h2>
-                            <p>
-                                
-                            </p>
-                    </div>
-                    <div class="col2">
-                        <h2 id = "about1"></h2>
-                            <p>
-                                
-                            </p>
-                    </div>
-                </div>
-            </div>
+        </div>
         <div class="container lightseagreen">
-            <h3 id = "about2">Pricing</h3>
-            <div class="row">
-                    
-            </div>
+            <form action="action_page.php" method="post">
+                <div class="imgcontainer">
+                    <img src="StevensLogo.jpeg" 
+                    alt="Logo" class="Logo" border="0"></a>
+                </div>
+              
+                <div class="container">
+                  <label for="uname"><b>Username</b></label>
+                  <input type="text" placeholder="Enter Username" name="uname" required>
+              
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" required>
+              
+                  <button type="submit">Login</button>
+                  <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                  </label>
+                </div>
+              
+                <div class="container" style="background-color:#f1f1f1">
+                  <button type="button" class="cancelbtn">Cancel</button>
+                  <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+              </form>
         </div>
         <script>
             function myFunction() 
