@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="Style.css">
-    <title>Tutoring</title>
+    <title></title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         body 
@@ -110,7 +110,7 @@
     </head>
     <body>
         <div class="navbar" id = "myNavbar">
-            <a style = "background: lightseagreen" href="Home.html">iTutor</a>
+            <a style = "background: lightseagreen" href="Home.html">Home</a>
             <a href="Extra.html">Extra</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="fa fa-bars"></i>
@@ -118,39 +118,34 @@
         </div>
         
             <br><br><br><br>
-            <h3 style="font-size: 40px;">Chess</h3>
+            <h3 style="font-size: 40px;">Verify</h3>
         <br>
-        <img src="HarryPotterChessScene.jpg" 
-        alt="Verfiy" border="0" /></a>
         <br>
         <div class="container lightseagreen">
-                <h3 id = "about2" >Verification Guidelines</h3>
-                <div class="row"> 
-                    
-                </div>
-            </div>
-        <div class="container lightgray">
-                <h3></h3>
-                <div class="row">
-                    <div class="col2">
-                        <h2 id = "about1"></h2>
-                            <p>
-                                
-                            </p>
+            <h3 id = "about2" >Register</h3>
+                <form action="action_page.php">
+                    <div class="container">
+
+                      <label for="email"><b>Email</b></label>
+                      <input type="text" placeholder="Enter Email" name="email" id="email" required>
+                  
+                      <label for="psw"><b>Password</b></label>
+                      <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+                  
+                      <label for="psw-repeat"><b>Repeat Password</b></label>
+                      <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+                  
+                      <p>By creating an account you agree to our <a href="TermsAndPrivacy.html">Terms & Privacy</a>.</p>
+                      <button type="submit" class="registerbtn">Register</button>
                     </div>
-                    <div class="col2">
-                        <h2 id = "about1"></h2>
-                            <p>
-                                
-                            </p>
+                  
+                    <div class="container signin">
+                      <p>Already have an account? <a href="Login.html">Sign in</a>.</p>
                     </div>
-                </div>
-            </div>
+                  </form>
+        </div>
         <div class="container lightseagreen">
-            <h3 id = "about2">Pricing</h3>
-            <div class="row">
-                    
-            </div>
+            
         </div>
         <script>
             function myFunction() 
